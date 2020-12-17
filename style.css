@@ -1,23 +1,71 @@
+/* 
+MAIN HEADER
+*/
 .main_header{
     display: flex;
     flex-wrap: wrap;
     background: var(--mainThemeColor);
     justify-content: space-between;
+    padding: 10px;
+}
+.main_header_logo{
+    display: flex;
+    flex-basis: 100%;
+    justify-content: center;
+}
+.logo{
+    flex-basis: 5%;
+    z-index: 99;
 }
 .main_header_nav{
     display: flex;
     flex-wrap: wrap;
-    justify-content: end;
-    flex-basis: 70%;
+    justify-content: start;
+    flex-basis: 100%;
 }
 .main_header_nav_ul{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: end;
+    justify-content: start;
 }
 .main_header_nav_ul_li{
     margin: 0px 10px;
     color: #fff;
-    font-size: 1.3em;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+.main_header_nav_ul_li:hover{
+    border-top: solid 1px #fff;
+    transition: border;
+    transition-duration: 1s;
+}
+
+
+.porsche1{
+    display: none;
+    z-index: 2;
+    background: var(--mainThemeColor);
+    position: absolute;
+    width: 100%;
+    left: 0%;
+    margin-top: 0%;
+}
+.porsche1 img{
+    width: 50%;
+}
+#porsche:hover .porsche1{
+    display: flex; 
+}
+.porsche_itens{
+    margin-top: 10px;
+}
+.porsche_itens_cars{
+    display: flex;
+    align-items: center;
+    font-size: 0.875em;
+    margin-left: 10px;
+}
+.porsche_itens_cars:hover{
+    background: chartreuse;
 }

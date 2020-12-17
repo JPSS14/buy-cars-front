@@ -69,3 +69,11 @@ MAIN HEADER
 .porsche_itens_cars:hover{
     background: chartreuse;
 }
+.porsche_itens_cars_description{
+    display: none;
+    position: absolute;
+    margin-left: 300px;
+}
+#porsche_718:hover .porsche_itens_cars_description{
+    display: flex;
+}

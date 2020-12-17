@@ -1,0 +1,23 @@
+.main_header{
+    display: flex;
+    flex-wrap: wrap;
+    background: var(--mainThemeColor);
+    justify-content: space-between;
+}
+.main_header_nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    flex-basis: 70%;
+}
+.main_header_nav_ul{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: end;
+}
+.main_header_nav_ul_li{
+    margin: 0px 10px;
+    color: #fff;
+    font-size: 1.3em;
+}

@@ -126,11 +126,7 @@ MAIN HEADER
     top: 0;
     z-index: -2;
 }
-
-#teste:hover .car, #teste:hover .cenario{
-    display: flex;
-}
-#porsche-718-boxster-model:hover .car, #porsche-718-boxster-model:hover .cenario{
+.other_description span:hover .car, .other_description span:hover .cenario{
     display: flex;
 }
 

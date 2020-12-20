@@ -80,7 +80,7 @@ MAIN HEADER
     margin-top: 183px;
     width: 900px;
 }
-#porsche_718:hover .porsche_itens_cars_description{
+.porsche_itens_cars:hover .porsche_itens_cars_description{
     display: flex;
     flex-wrap: wrap;
     flex-basis: 100%;
@@ -94,6 +94,21 @@ MAIN HEADER
     position: absolute;
     z-index: 3;
     background: #fff;
+}
+#other_description2{
+    margin-top: -213px;
+}
+#other_description3{
+    margin-top: -295px;
+}
+#other_description4{
+    margin-top: -376px;
+}
+#other_description5{
+    margin-top: -457px;
+}
+#other_description6{
+    margin-top: -538px;
 }
 .other_description span{
   max-width: 270px;

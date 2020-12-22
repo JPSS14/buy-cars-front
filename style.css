@@ -99,9 +99,9 @@ MAIN HEADER
 #other_description2{
     margin-top: -213px;
 }
-#other_description2 span:last-child,
-#other_description3 span:last-child,
-#other_description6 span:last-child{
+#other_description2 span:nth-child(2),
+#other_description3 span:nth-child(2),
+#other_description6 span:nth-child(2){
     margin-top: -120px;
 }
 #other_description3{
@@ -166,6 +166,12 @@ MAIN HEADER
 }
 .about_car_acceleration p{
     margin-top: -40px;
+}
+.suport{
+    width: 300px;
+    height: 139px;
+    position: absolute;
+    margin-top: 349px;
 }
 
 .car_version{

@@ -101,6 +101,7 @@ MAIN HEADER
 }
 #other_description2 span:nth-child(2),
 #other_description3 span:nth-child(2),
+#other_description4 span:nth-child(2),
 #other_description6 span:nth-child(2){
     margin-top: -120px;
 }
@@ -150,6 +151,9 @@ MAIN HEADER
 }
 #about_carv{
     margin-top: 344px;
+}
+#about_car_panamerah{
+    margin-top: 273px;
 }
 #about_car2{
     margin-top: 274px;

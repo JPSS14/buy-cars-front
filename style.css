@@ -131,6 +131,43 @@ MAIN HEADER
     color: chartreuse;
 }
 
+.about_car{
+    display: none;
+    margin-top: 344px;
+    margin-left: -15px;
+    width: 600px;
+    height: 121px;
+    background: #fff;
+    position: absolute;
+    border-top: solid 8px var(--mainThemeColor);
+    border-bottom: solid 8px var(--mainThemeColor);
+    justify-content: space-around;
+}
+.about_car_power{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 45%;
+    align-items: center;
+}
+.about_car_power span{
+    flex-basis: 100%;
+}
+.about_car_power p{
+    margin-top: -40px;
+}
+.about_car_acceleration{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 45%;
+    align-items: center;
+}
+.about_car_acceleration span{
+    flex-basis: 100%;
+}
+.about_car_acceleration p{
+    margin-top: -40px;
+}
+
 .car_version{
     display: none;
     flex-wrap: wrap;
@@ -153,7 +190,9 @@ MAIN HEADER
     top: 0;
     z-index: -7;
 }
-.other_description span:hover .car, .other_description span:hover .cenario{
+.other_description span:hover .car,
+.other_description span:hover .cenario,
+.other_description span:hover .about_car{
     display: flex;
 }
 

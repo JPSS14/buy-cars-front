@@ -130,6 +130,11 @@ MAIN HEADER
 .other_description span:hover{
     color: chartreuse;
 }
+.other_description span:hover .car,
+.other_description span:hover .cenario,
+.other_description span:hover .about_car{
+    display: flex;
+}
 
 .about_car{
     display: none;
@@ -142,6 +147,18 @@ MAIN HEADER
     border-top: solid 8px var(--mainThemeColor);
     border-bottom: solid 8px var(--mainThemeColor);
     justify-content: space-around;
+}
+#about_car2{
+    margin-top: 274px;
+}
+#about_car3{
+    margin-top: 204px;
+}
+#about_car4{
+    margin-top: 134px;
+}
+#about_car5{
+    margin-top: 65px;
 }
 .about_car_power{
     display: flex;
@@ -196,11 +213,7 @@ MAIN HEADER
     top: 0;
     z-index: -7;
 }
-.other_description span:hover .car,
-.other_description span:hover .cenario,
-.other_description span:hover .about_car{
-    display: flex;
-}
+
 
 
 

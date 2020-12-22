@@ -148,6 +148,9 @@ MAIN HEADER
     border-bottom: solid 8px var(--mainThemeColor);
     justify-content: space-around;
 }
+#about_carv{
+    margin-top: 344px;
+}
 #about_car2{
     margin-top: 274px;
 }

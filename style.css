@@ -40,7 +40,7 @@ MAIN HEADER
 }
 
 
-.porsche1{
+.dropdown{
     display: none;
     z-index: 2;
     background: var(--mainThemeColor);
@@ -50,37 +50,38 @@ MAIN HEADER
     margin-top: 0%;
     flex-wrap: wrap;
 }
-.porsche1 .mini_img{
+.dropdown .mini_img{
     width: 50%;
 }
-#porsche:hover .porsche1{
+#porsche:hover .dropdown,
+#mclaren:hover .dropdown{
     display: flex; 
 }
-.porsche_itens{
+.menu_itens{
     margin-top: 10px;
 }
 .car_name{
     margin: 0 auto;
 }
-.porsche_itens_cars{
+.menu_itens_cars{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     font-size: 0.875em;
     margin-left: 10px;
-    max-width: 310px;
+    max-width: 288px;
 }
-.porsche_itens_cars:hover{
+.menu_itens_cars:hover{
     background: chartreuse;
 }
-.porsche_itens_cars_description{
+.menu_itens_cars_description{
     display: none;
     position: absolute;
     margin-left: 289px;
     margin-top: 183px;
     width: 900px;
 }
-.porsche_itens_cars:hover .porsche_itens_cars_description{
+.menu_itens_cars:hover .menu_itens_cars_description{
     display: flex;
     flex-wrap: wrap;
     flex-basis: 100%;

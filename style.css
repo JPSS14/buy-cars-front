@@ -97,25 +97,25 @@ MAIN HEADER
     z-index: 99;
     background: #fff;
 }
-#other_description2{
+#other_description_porsche2{
     margin-top: -213px;
 }
-#other_description2 span:nth-child(2),
-#other_description3 span:nth-child(2),
-#other_description4 span:nth-child(2),
-#other_description6 span:nth-child(2){
+#other_description_porsche2 span:nth-child(2),
+#other_description_porsche3 span:nth-child(2),
+#other_description_porsche4 span:nth-child(2),
+#other_description_porsche6 span:nth-child(2){
     margin-top: -120px;
 }
-#other_description3{
+#other_description_porsche3{
     margin-top: -295px;
 }
-#other_description4{
+#other_description_porsche4{
     margin-top: -376px;
 }
-#other_description5{
+#other_description_porsche5{
     margin-top: -457px;
 }
-#other_description6{
+#other_description_porsche6{
     margin-top: -538px;
 }
 .other_description span{

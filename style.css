@@ -39,6 +39,7 @@ MAIN HEADER
     border-top: solid 2px chartreuse;
 }
 
+/* DROPDOWN  */
 
 .dropdown{
     display: none;
@@ -86,6 +87,8 @@ MAIN HEADER
     flex-wrap: wrap;
     flex-basis: 100%;
 }
+
+
 /* 
 OTHER DESCRIPTION
 */
@@ -119,7 +122,9 @@ OTHER DESCRIPTION
 .other_description span:hover .about_car{
     display: flex;
 }
-/* PORSCHE */
+
+/* OTHER DESCRIPTION: PORSCHE */
+
 #other_description_porsche2{
     margin-top: -213px;
 }
@@ -142,7 +147,7 @@ OTHER DESCRIPTION
     margin-top: -538px;
 }
 
-/* MCLAREN */
+/* OTHER DESCRIPTION: MCLAREN */
 #other_description_mclaren2{
     margin-top: -213px;
 }
@@ -160,7 +165,7 @@ OTHER DESCRIPTION
 }
 
 
-
+/* ABOUT CAR: Responsavel pelo espaçamento e formatação do about car */
 .about_car{
     display: none;
     margin-top: 344px;
@@ -221,6 +226,8 @@ OTHER DESCRIPTION
 .about_car_acceleration p{
     margin-top: -40px;
 }
+
+/* suport: Responsavel por permitir que o ultimo item do menu itens car tenha um other description que não desapareça recebendo seu hover */
 .suport{
     width: 300px;
     height: 139px;
@@ -234,6 +241,8 @@ OTHER DESCRIPTION
     position: absolute;
     z-index: -2;
 }
+
+/* car: Adiciona a formatação na imagem do carro no other description */
 .car{
     display: none;
     position: absolute;
@@ -242,6 +251,8 @@ OTHER DESCRIPTION
     top: 0;
     z-index: 99;
 }
+
+/* cenario: Adiciona a formatação na imagem do cenario no other description */
 .cenario{
     display: none;
     position: absolute;
@@ -251,8 +262,9 @@ OTHER DESCRIPTION
     z-index: -7;
 }
 
-
-
+/* 
+//// MAIN HEADER
+*/
 
 
 

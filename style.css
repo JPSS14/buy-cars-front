@@ -86,6 +86,9 @@ MAIN HEADER
     flex-wrap: wrap;
     flex-basis: 100%;
 }
+/* 
+OTHER DESCRIPTION
+*/
 .other_description{
     display: flex;
     flex-wrap: wrap;
@@ -97,6 +100,26 @@ MAIN HEADER
     z-index: 99;
     background: #fff;
 }
+.other_description span{
+    flex-basis: 90%;
+    display: flex;
+    margin-left: 5px;
+    background: #fff;
+    color: #000;
+    padding: 5px 0;
+    margin: 0 auto;
+    box-sizing: content-box;
+    overflow: hidden;
+  }
+.other_description span:hover{
+    color: chartreuse;
+}
+.other_description span:hover .car,
+.other_description span:hover .cenario,
+.other_description span:hover .about_car{
+    display: flex;
+}
+/* PORSCHE */
 #other_description_porsche2{
     margin-top: -213px;
 }
@@ -118,25 +141,25 @@ MAIN HEADER
 #other_description_porsche6{
     margin-top: -538px;
 }
-.other_description span{
-  flex-basis: 90%;
-  display: flex;
-  margin-left: 5px;
-  background: #fff;
-  color: #000;
-  padding: 5px 0;
-  margin: 0 auto;
-  box-sizing: content-box;
-  overflow: hidden;
+
+/* MCLAREN */
+#other_description_mclaren2{
+    margin-top: -213px;
 }
-.other_description span:hover{
-    color: chartreuse;
+#other_description_mclaren3{
+    margin-top: -295px;
 }
-.other_description span:hover .car,
-.other_description span:hover .cenario,
-.other_description span:hover .about_car{
-    display: flex;
+#other_description_mclaren4{
+    margin-top: -376px;
 }
+#other_description_mclaren5{
+    margin-top: -457px;
+}
+#other_description_mclaren6{
+    margin-top: -538px;
+}
+
+
 
 .about_car{
     display: none;
@@ -167,6 +190,9 @@ MAIN HEADER
 }
 #about_car4{
     margin-top: 134px;
+}
+#about_car4v{
+    margin-top: 135px;
 }
 #about_car5{
     margin-top: 65px;

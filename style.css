@@ -151,6 +151,12 @@ OTHER DESCRIPTION
 #other_description_mclaren2{
     margin-top: -213px;
 }
+
+#other_description_mclaren3 span:nth-child(3),
+#other_description_mclaren3 span:nth-child(2){
+    margin-top: -40px;
+}
+
 #other_description_mclaren3{
     margin-top: -295px;
 }
@@ -183,6 +189,12 @@ OTHER DESCRIPTION
 }
 #about_car_panamerah{
     margin-top: 273px;
+}
+#about_car_720s{
+    margin-top: 245px;
+}
+#about_car_765{
+    margin-top: 140px;
 }
 #about_car2{
     margin-top: 274px;

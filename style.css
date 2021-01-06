@@ -55,7 +55,8 @@ MAIN HEADER
     width: 50%;
 }
 #porsche:hover .dropdown,
-#mclaren:hover .dropdown{
+#mclaren:hover .dropdown,
+#lamborghini:hover .dropdown{
     display: flex; 
 }
 .menu_itens{

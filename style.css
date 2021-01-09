@@ -170,6 +170,14 @@ OTHER DESCRIPTION
 #other_description_mclaren6{
     margin-top: -538px;
 }
+/* OTHER DESCRIPTION: LAMBORGHINI */
+#other_description_lamborghini4 span:nth-child(2){
+    margin-top: -120px;
+}
+
+#other_description_lamborghini4{
+    margin-top: -376px;
+}
 
 
 /* ABOUT CAR: Responsavel pelo espaçamento e formatação do about car */

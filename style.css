@@ -174,9 +174,16 @@ OTHER DESCRIPTION
 #other_description_lamborghini4 span:nth-child(2){
     margin-top: -120px;
 }
+#other_description_lamborghini5 span:nth-child(3),
+#other_description_lamborghini5 span:nth-child(2){
+    margin-top: -40px;
+}
 
 #other_description_lamborghini4{
     margin-top: -376px;
+}
+#other_description_lamborghini5{
+    margin-top: -457px;
 }
 
 
@@ -199,10 +206,12 @@ OTHER DESCRIPTION
 #about_car_panamerah{
     margin-top: 273px;
 }
-#about_car_720s{
+#about_car_720s,
+#about_car_asterion{
     margin-top: 245px;
 }
-#about_car_765{
+#about_car_765,
+#about_car_estoque{
     margin-top: 140px;
 }
 #about_car_senna_gtr,

@@ -14,11 +14,74 @@
         <div class="main_header_logo">
             <img class="logo" src="Assets/logo.png" alt="logo" title="logo">
         </div>
+
+        <!-- NAVBAR MOBILE -->
+        <nav class="main_header_mobile">
+            <ul class="main_header_mobile_menu">
+
+                <!-- PORSCE MOBILE -->
+                <li class="main_header_mobile_menu_li" id="porsche_mobile" ><span onclick="show(1);">Porsche</span>
+                    <div class="dropdown_mobile">
+                        <div class="menu_itens">
+
+                            <!-- 718 -->
+                            <div class="menu_itens_cars" id="porsche_718">
+                                <a href="#"><img class="mini_img" src="Assets/porsche-718.webp"></a>
+                                <p class="car_name">718</p>
+                            </div>
+                            <!-- /718 -->
+
+                            <!-- 911 -->
+                            <div class="menu_itens_cars">
+                                <img class="mini_img" src="Assets/porsche-911.png">
+                                <p class="car_name">911</p>
+                            </div>
+                            <!-- /911 -->
+
+                            <!-- Panamera -->
+                            <div class="menu_itens_cars">
+                                <img class="mini_img" src="Assets/porsche-panamera.png">
+                                <p class="car_name">Panamera</p>
+                            </div>
+                            <!-- /Panamera -->
+
+                            <!-- Macan -->
+                            <div class="menu_itens_cars">
+                                <img class="mini_img" src="Assets/porsche-macan.png">
+                                <p class="car_name">Macan</p>
+                            </div>
+                            <!-- /Macan -->
+
+                            <!-- Cayenne -->
+                            <div class="menu_itens_cars">
+                                <img class="mini_img" src="Assets/porsche-cayenne.png">
+                                <p class="car_name">Cayenne</p>
+                            </div>
+                            <!-- /Cayenne -->
+                        </div>
+
+                    </div>
+                </li>
+                <!-- /PORSCHE MOBILE -->
+
+                <!-- MCLAREN MOBILE -->
+                <li class="main_header_mobile_menu_li" id="mclaren_mobile" onclick="show(2);">McLaren</li>
+                <!-- /MCLAREN MOBILE -->
+
+                <!-- LAMBORGHINI MOBILE -->
+                <li class="main_header_mobile_menu_li" id="lamborghini_mobile" onclick="show(3);">Lamborghini</li>
+                <!-- /LAMBORGHINI MOBILE -->
+
+            </ul>
+        </nav>
+        <!-- /NAVBAR MOBILE -->
+
+        <!-- NAVBAR -->
         <nav class="main_header_nav">
             <ul class="main_header_nav_ul">
 
                 <!-- PORSCHE -->
-                <li class="main_header_nav_ul_li" id="porsche" >Porsche
+                <li class="main_header_nav_ul_li" id="porsche"><span id="porshe1" onclick="show(1)">Porsche</span>
                     <div class="dropdown">
                         <div class="menu_itens">
 
@@ -1051,6 +1114,7 @@
 
             </ul>
         </nav>
+        <!-- /NAVBAR -->
     </header>
     <script src="main.js"></script>
 </body>

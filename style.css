@@ -17,6 +17,36 @@ MAIN HEADER
     flex-basis: 5%;
     z-index: 99;
 }
+
+/* MENU MOBILE */
+.main_header_mobile{
+    display: none;
+    flex-wrap: wrap;
+    justify-content: start;
+    flex-basis: 100%;
+}
+.main_header_mobile_menu{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: start;
+}
+.main_header_mobile_menu_li{
+    margin: 0px 10px;
+    color: #fff;
+    font-size: 1.5em;
+    cursor: pointer; 
+}
+.dropdown_mobile{
+    display: none;
+}
+.show .dropdown_mobile{
+    display: flex;
+}
+.show{
+    border-top: solid 2px chartreuse;
+}
+/* MENU */
 .main_header_nav{
     display: flex;
     flex-wrap: wrap;
@@ -58,12 +88,6 @@ MAIN HEADER
 #mclaren:hover .dropdown,
 #lamborghini:hover .dropdown{
     display: flex; 
-}
-.show .dropdown{
-    display: flex;
-}
-.show{
-    border-top: solid 2px chartreuse;
 }
 .menu_itens{
     margin-top: 10px;
@@ -317,8 +341,27 @@ OTHER DESCRIPTION
 //// MAIN HEADER
 */
 
+@media (min-width: 1px){
+    /* NAVBAR MOBILE */
+    .main_header_mobile{
+        display: flex;
+    }
+    /* NAVBAR */
+    .main_header_nav{
+        display: none;
+    }
+}
 
-
+@media (min-width: 1017px){
+    /* NAVBAR MOBILE */
+    .main_header_mobile{
+        display: none;
+    }
+    /* NAVBAR */
+    .main_header_nav{
+        display: flex;
+    }
+}
 
 
 

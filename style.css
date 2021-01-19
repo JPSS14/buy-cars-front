@@ -21,7 +21,7 @@ MAIN HEADER
 /* MENU MOBILE */
 .main_header_mobile{
     display: none;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: start;
     flex-basis: 100%;
 }
@@ -39,12 +39,33 @@ MAIN HEADER
 }
 .dropdown_mobile{
     display: none;
+    flex-wrap: wrap;
+    z-index: 2;
+    background: var(--mainThemeColor);
+    position: absolute;
+    width: 100%;
+    left: 0%;
+    margin-top: 0%;
+    flex-wrap: wrap;
+    flex-basis: 10%;
 }
 .show .dropdown_mobile{
     display: flex;
 }
 .show{
     border-top: solid 2px chartreuse;
+}
+.menu_itens_mobile{
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu_itens_mobile_cars{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 0.875em;
+    margin-left: 10px;
+    width: 100%;
 }
 /* MENU */
 .main_header_nav{

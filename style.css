@@ -59,6 +59,9 @@ MAIN HEADER
 #lamborghini:hover .dropdown{
     display: flex; 
 }
+.show .dropdown{
+    display: flex;
+}
 .menu_itens{
     margin-top: 10px;
 }

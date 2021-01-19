@@ -62,6 +62,9 @@ MAIN HEADER
 .show .dropdown{
     display: flex;
 }
+.show{
+    border-top: solid 2px chartreuse;
+}
 .menu_itens{
     margin-top: 10px;
 }

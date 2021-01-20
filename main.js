@@ -39,6 +39,8 @@ function showMobilePorsche(op){
 
     switch (op){
         case 1: elemento = document.getElementById("porsche_718_mobile"); break;
+        case 2: elemento = document.getElementById("porsche_911_mobile"); break;
+        case 4: elemento = document.getElementById("porsche_panamera_mobile"); break;
         default: elemento = ""; break;
     }
 

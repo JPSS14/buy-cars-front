@@ -33,3 +33,23 @@ function show(op) {
         }
     }
 }
+
+function showMobilePorsche(op){
+    let elemento;
+
+    switch (op){
+        case 1: elemento = document.getElementById("porsche_718_mobile"); break;
+        default: elemento = ""; break;
+    }
+
+    const elementoClasses = elemento.classList;
+    const elementoSize = elementoClasses.length;
+
+    for (let i = 0; i < elementoSize; i++) {
+        if (elementoClasses[i] == "show-mobile") {
+            elemento.classList.remove("show-mobile");
+        } else {
+            elemento.classList.add("show-mobile");
+        }
+    }    
+}

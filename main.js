@@ -55,3 +55,26 @@ function showMobilePorsche(op){
         }
     }    
 }
+
+
+function showMobileMclaren(op){
+    let elemento;
+
+    switch (op){
+        case 2: elemento = document.getElementById("mclaren_sport_series"); break;
+        case 3: elemento = document.getElementById("porsche_911_mobile"); break;
+        case 4: elemento = document.getElementById("porsche_panamera_mobile"); break;
+        default: elemento = ""; break;
+    }
+
+    const elementoClasses = elemento.classList;
+    const elementoSize = elementoClasses.length;
+
+    for (let i = 0; i < elementoSize; i++) {
+        if (elementoClasses[i] == "show-mobile") {
+            elemento.classList.remove("show-mobile");
+        } else {
+            elemento.classList.add("show-mobile");
+        }
+    }    
+}

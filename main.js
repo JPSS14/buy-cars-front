@@ -79,3 +79,28 @@ function showMobileMclaren(op){
         }
     }    
 }
+
+
+function showMobileLamborghini(op){
+    let elemento;
+
+    switch (op){
+        case 1: elemento = document.getElementById("lamborghini_aventador"); break;
+        case 2: elemento = document.getElementById("lamborghini_huracan"); break;
+        case 3: elemento = document.getElementById("lamborghini_urus"); break;
+        case 4: elemento = document.getElementById("lamborghini_limited_series"); break;
+        case 5: elemento = document.getElementById("lamborghini_concept"); break;
+        default: elemento = ""; break;
+    }
+
+    const elementoClasses = elemento.classList;
+    const elementoSize = elementoClasses.length;
+
+    for (let i = 0; i < elementoSize; i++) {
+        if (elementoClasses[i] == "show-mobile") {
+            elemento.classList.remove("show-mobile");
+        } else {
+            elemento.classList.add("show-mobile");
+        }
+    }    
+}

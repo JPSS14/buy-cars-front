@@ -62,8 +62,9 @@ function showMobileMclaren(op){
 
     switch (op){
         case 2: elemento = document.getElementById("mclaren_sport_series"); break;
-        case 3: elemento = document.getElementById("porsche_911_mobile"); break;
-        case 4: elemento = document.getElementById("porsche_panamera_mobile"); break;
+        case 3: elemento = document.getElementById("mclaren_super_series"); break;
+        case 4: elemento = document.getElementById("mclaren_ultimate_series"); break;
+        case 5: elemento = document.getElementById("mclaren_legacy"); break;
         default: elemento = ""; break;
     }
 

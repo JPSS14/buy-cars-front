@@ -393,6 +393,7 @@ OTHER DESCRIPTION
     background-image: url(Assets/urus-background-2.jpg);
 }
 .main_parallax{
+    display: none;
     background-size: cover;
     background-attachment: fixed;
     position: relative;
@@ -410,23 +411,39 @@ OTHER DESCRIPTION
 
 }
 
+/* MAIN */
+.main{
+    display: flex;
+    flex-wrap: wrap;
+}
 /* CTA */
 .main_cta{
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
 }
 .main_cta_image{
-    display: flex;
+    display: none;
     flex-wrap: wrap;
     flex-basis: 100%;
-    justify-content: center;
 }
 .cta_image{
     width: 100%;
 }
-.main_cta_text{
+
+/* FEATURED */
+
+.main_featured{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 0;
     flex-basis: 100%;
-    color: #000;
+}
+.main_featured_header{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    color: var(--mainThemeColor);
     font-size: 2em;
     justify-content: center;
 }
@@ -446,8 +463,7 @@ OTHER DESCRIPTION
         display: none;
     }
     /* CTA */
-    .main_cta_image,
-    .main_cta_text{
+    .main_cta_image{
         display: flex;
     }
 }
@@ -467,8 +483,7 @@ OTHER DESCRIPTION
         display: flex;
     }
     /* CTA */
-    .main_cta_image,
-    .main_cta_text{
+    .main_cta_image{
         display: none;
     }
 }

@@ -87,6 +87,9 @@ MAIN HEADER
     align-items: center;
     border-left: solid 3px #fff;
 }
+.mobile_cars_dropdown span p{
+    text-align: center;
+}
 .show-mobile{
     display: flex;
 }
@@ -384,6 +387,28 @@ OTHER DESCRIPTION
 /* 
 //// MAIN HEADER
 */
+
+/* Initial Parallax */
+#parallax_img1{
+    background-image: url(Assets/urus-background-2.jpg);
+}
+.main_parallax{
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    padding: 21% 0%;
+    min-width: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    transform-style: inherit;
+}
+.main_parallax_header{
+    max-width: 300px;
+    color: #fff;
+    font-size: 2.5em;
+    margin-left: 20px;
+
+}
 
 @media (min-width: 1px){
     /* NAVBAR MOBILE */

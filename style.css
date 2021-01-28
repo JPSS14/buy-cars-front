@@ -556,6 +556,9 @@ CONFORT
     margin-top: 10px;
     font-size: 1.1em;
 }
+.main_confort_text p:last-child{
+    margin-bottom: 10px;
+}
 
 @media (min-width: 1px){
     /* NAVBAR MOBILE */
@@ -586,6 +589,13 @@ CONFORT
     .main_speed_text{
         flex-basis: 95%;
     }
+    /* CONFORT */
+    .main_confort_img{
+        flex-basis: 95%;
+    }
+    .main_confort_text{
+        flex-basis: 95%;
+    }
 }
 
 @media (min-width: 720px){
@@ -598,6 +608,13 @@ CONFORT
         flex-basis: 95%;
     }
     .main_speed_text{
+        flex-basis: 95%;
+    }
+    /* CONFORT */
+    .main_confort_img{
+        flex-basis: 95%;
+    }
+    .main_confort_text{
         flex-basis: 95%;
     }
 }
@@ -629,6 +646,13 @@ CONFORT
         flex-basis: 48%;
     }
     .main_speed_text{
+        flex-basis: 48%;
+    }
+    /* CONFORT */
+    .main_confort_img{
+        flex-basis: 48%;
+    }
+    .main_confort_text{
         flex-basis: 48%;
     }
 }

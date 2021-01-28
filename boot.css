@@ -8,3 +8,6 @@
 :root{
     --mainThemeColor:#1F48F2;
 }
+.featured{
+    color: var(--mainThemeColor);
+}

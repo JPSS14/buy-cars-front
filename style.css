@@ -494,6 +494,17 @@ OTHER DESCRIPTION
     .main_cta_image{
         display: flex;
     }
+    /* MAIN FEATURED ARTICLE */
+    .main_featured_article{
+        flex-basis: 75%;
+    }
+}
+
+@media (min-width: 720px){
+    /* MAIN FEATURED ARTICLE */
+    .main_featured_article{
+        flex-basis: 45%;
+    }
 }
 
 @media (min-width: 1017px){
@@ -513,6 +524,10 @@ OTHER DESCRIPTION
     /* CTA */
     .main_cta_image{
         display: none;
+    }
+    /* MAIN FEATURED ARTICLE */
+    .main_featured_article{
+        flex-basis: 30%;
     }
 }
 

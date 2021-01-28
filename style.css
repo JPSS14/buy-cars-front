@@ -538,7 +538,14 @@ SPEED
     }
     /* MAIN FEATURED ARTICLE */
     .main_featured_article{
-        flex-basis: 75%;
+        flex-basis: 85%;
+    }
+    /* SPEED */
+    .main_speed_img{
+        flex-basis: 95%;
+    }
+    .main_speed_text{
+        flex-basis: 95%;
     }
 }
 
@@ -546,6 +553,13 @@ SPEED
     /* MAIN FEATURED ARTICLE */
     .main_featured_article{
         flex-basis: 45%;
+    }
+    /* SPEED */
+    .main_speed_img{
+        flex-basis: 95%;
+    }
+    .main_speed_text{
+        flex-basis: 95%;
     }
 }
 
@@ -570,6 +584,13 @@ SPEED
     /* MAIN FEATURED ARTICLE */
     .main_featured_article{
         flex-basis: 30%;
+    }
+    /* SPEED */
+    .main_speed_img{
+        flex-basis: 48%;
+    }
+    .main_speed_text{
+        flex-basis: 48%;
     }
 }
 
